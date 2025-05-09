@@ -1,29 +1,28 @@
-.para,
-.small-para {
+.reg.para {
   color: hsl(0, 100%, 50%);
-}
-
-.small-para {
-  font-size: 14px;
-}
-
-.para {
   font-size: 22px;
 }
 
-.confirm {
+.small.para {
+  color: hsl(0, 100%, 50%);
+  font-size: 14px;
+}
+
+
+.confirm.button {
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 } 
 
-.button {
+.button.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+div.child {
   color: red;
   font-size: 14px;
 }
